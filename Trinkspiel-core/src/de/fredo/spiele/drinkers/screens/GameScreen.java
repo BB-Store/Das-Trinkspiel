@@ -90,6 +90,12 @@ public class GameScreen implements Screen, InputProcessor {
 		this.game = game;
 		this.playerCount = playCount;
 		init();
+		kacke();
+	}
+
+	private void kacke() {
+		// TODO Auto-generated method stub
+		
 	}
 
 	private void init() {
