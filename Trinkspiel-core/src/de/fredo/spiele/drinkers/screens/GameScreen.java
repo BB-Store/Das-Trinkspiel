@@ -64,7 +64,6 @@ public class GameScreen implements Screen, InputProcessor {
 
 	// Test
 	private boolean test_Modus;
-	private int test_Counter;
 	private int index;
 	private boolean ansicht;
 	//
@@ -118,7 +117,6 @@ public class GameScreen implements Screen, InputProcessor {
 		Gdx.app.debug("TEST3", "Texturen geladen");
 		Gdx.input.setInputProcessor(this);
 		rebuildStage();
-		test_Counter = 0;
 		loadGame();
 		createPlayer();
 
