@@ -18,6 +18,7 @@ public class MainActivity extends Game {
 	
 	@Override
 	public void create () {
+		//Test Comment from other PC
 		Gdx.app.setLogLevel(Application.LOG_DEBUG);
 		setScreen(new Menuscreen(this));
 	}
